@@ -45,22 +45,15 @@ h1 {
     display: flex;
     margin: 15px;
     padding: 10px;
-    /* height: 30%; */
-    /* background-color: rgba(98, 243, 248, 0.863); */
     justify-content: space-evenly;
 }
 
 .container h2 {
-    /* width: 15%; */
-    border-right: black solid 3px;
+    border-right: black solid;
     flex: 0 0 20%;
     font-size: 200%;
     text-align: right;
     padding-right: 20px;
-}
-
-.main-wrap {
-    height: 20em;
 }
 
 .container-content {
