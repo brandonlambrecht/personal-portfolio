@@ -28,7 +28,7 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See link for snap shot of Personal Portfolio webpage.
-Image![Personal Portfolio](./assets/personal-portfolio-screen-shot.png)
+Image! [Personal Portfolio](./assets/personal-portfolio-screen-shot.png)
 
 2. Follow deployed link for full access to webpage
-Webpage![Personal Portfolio](https://brandonlambrecht.github.io/marketing-refactor/)
+Webpage! [Personal Portfolio](https://brandonlambrecht.github.io/personal-portfolio/)
