@@ -1,71 +1,212 @@
- body {}
+header {
+    background-color: rgba(0, 0, 0, 0.678);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    padding: 20px;
+}
 
- header {
-     background-color: gray;
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: space-between;
-     align-items: center;
-     margin: 15px;
-     padding: 10px;
- }
+nav>ul {
+    list-style-type: none;
+    text-align: right;
+    width: 100%;
+    padding: 5px;
+}
 
- nav>ul {
-     list-style-type: none;
-     text-align: right;
-     width: 100%;
-     padding: 5px;
- }
+li {
+    display: inline-block;
+    margin-inline: 4px;
+}
 
- li {
-     display: inline-block;
-     margin-inline: 4px;
- }
+li a {
+    color: rgba(98, 243, 248, 0.863);
+    ;
+    text-decoration: none;
+}
 
- li a {
-     color: white;
-     text-decoration: none;
- }
+li a:hover,
+li a:focus {
+    text-decoration: underline;
+}
 
- li a:hover,
- li a:focus {
-     text-decoration: underline;
- }
-
- .portfolio-section {
-     display: flex;
-     margin: 15px;
-     padding: 10px;
-
-     background-color: rgba(0, 0, 255, 0.452);
-
- }
-
- .portfolio-section h2 {
-     width: 15%;
-     border-right: black solid 3px;
-     height: 200px;
- }
-
- .portfolio-section div {
-     margin-left: 20px;
- }
-
- .portfolio-section2 {
-     display: flex;
-     flex-wrap: wrap;
-     border: black solid;
- }
-
- .footer-section ul {
-     text-decoration: underline;
-     display: flex;
-     height: 50px;
-     justify-content: space-around;
-     align-items: center;
-     background-color: rgba(128, 128, 128, 0.548);
-     margin: 15px;
-     padding: 10px;
+h1 {
+    width: fit-content;
+    background-color: rgba(98, 243, 248, 0.863);
+    padding: 8px;
+    font-size: 24px;
 
 
- }
+
+}
+
+.container {
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    /* height: 30%; */
+    /* background-color: rgba(98, 243, 248, 0.863); */
+    justify-content: space-evenly;
+}
+
+.container h2 {
+    /* width: 15%; */
+    border-right: black solid 3px;
+    /* height: 200px; */
+    flex: 0 0 20%;
+    font-size: 200%;
+    text-align: right;
+    padding-right: 8px;
+}
+
+.main-wrap {
+    height: 20em;
+}
+
+.container-content {
+    height: fit-content;
+    display: flex;
+    /* background-color: rgba(98, 243, 248, 0.863); */
+    padding: 5px;
+}
+
+.title-wrap {
+    width: 25%;
+    display: flex;
+    justify-content: right;
+    border-right: black solid;
+    font-size: 34px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.content-wrap {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: inherit;
+}
+
+#card1 {
+    width: 94%;
+    height: 20em;
+    padding: .5em;
+    margin: 15px;
+    border: black solid;
+    border-radius: 5px;
+    background-image: url(./water-drops.jpeg);
+    background-size: cover;
+
+}
+
+div #card1 a {
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#card2 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    text-decoration: ;
+    background-image: url(./green-lava.jpeg);
+    background-size: cover;
+}
+
+div #card2 a {
+    color: black;
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+#card3 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(./sand-aqua.jpeg);
+    background-size: cover;
+}
+
+div #card3 a {
+    color: black;
+    background-color: rgba(98, 243, 248, 0.863);
+}
+
+#card4 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(./water.jpg);
+    background-size: cover;
+}
+
+div #card4 a {
+    color: black;
+    background-color: rgba(98, 243, 248, 0.863);
+}
+
+#card5 {
+    width: 45%;
+    border: black solid;
+    height: 5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-image: url(././crystal.jfif);
+    background-size: cover;
+}
+
+div #card5 a {
+    color: black;
+    background-color: rgba(98, 243, 248, 0.863);
+}
+
+.footer-section ul {
+    text-decoration: underline;
+    display: flex;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.548);
+    margin: 15px;
+    padding: 10px;
+
+
+}
+
+.container div,
+.container ul {
+    /* margin-left: 20px; */
+    flex: 0 0 70%
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container h2 {
+        text-align: left;
+        border-right: black none 3px;
+    }
+}
+
+.contact-info li {
+
+    justify-content: space-around;
+}
